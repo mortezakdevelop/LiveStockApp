@@ -13,17 +13,18 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.livestockapplication.ui.theme.LivestockApplicationTheme
 import java.lang.reflect.Modifier
+import kotlin.math.sign
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            Home()
+
         }
     }
 }
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-   Home()
+
 }
